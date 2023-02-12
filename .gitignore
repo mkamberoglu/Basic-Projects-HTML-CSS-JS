@@ -9,6 +9,9 @@
 *.img
 *.png
 *.jpg
+*.jpeg
+
+images
 
 *.log
 
