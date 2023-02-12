@@ -11,7 +11,7 @@
 *.jpg
 *.jpeg
 
-images
+images/
 
 *.log
 
