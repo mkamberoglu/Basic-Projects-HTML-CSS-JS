@@ -3,4 +3,4 @@
  
 ## Every project has codepen link for view!
 
-![Love Coding!](/images/photo-1537884944318-390069bb8665.jpeg)
+![Love Coding!](/img/photo-1537884944318-390069bb8665.jpeg)

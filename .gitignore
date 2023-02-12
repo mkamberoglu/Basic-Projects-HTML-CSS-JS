@@ -6,12 +6,7 @@
 !.vscode/*.code-snippets
 
 
-*.img
-*.png
-*.jpg
-*.jpeg
-
-images/
+images
 
 *.log
 
