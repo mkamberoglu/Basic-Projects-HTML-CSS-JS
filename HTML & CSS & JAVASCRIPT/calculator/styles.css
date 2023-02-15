@@ -1,0 +1,100 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+/* Color Palette */
+
+:root {
+    --main: #dbd8e3;
+    --panel: #5c5470;
+    --btn: #352f44;
+    --btncrc: #2a2438;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+/* Container Centering */
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Using Grid */
+
+.container {
+    width: 20vw;
+    height: 60vh;
+    background-color: var(--btn);
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.panel {
+    background-color: var(--panel);
+    color: var(--main);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    font-size: 2rem;
+
+}
+
+/* Using Grid */
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.button {
+    background-color: var(--btn);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(29, 25, 25);
+    color: var(--main);
+    cursor: pointer;
+    
+}
+
+.button:hover {
+    background-color: var(--main) !important;
+    color: var(--btn) !important;
+    transition: background-color 1.5s  ease-in-out color 1.5s ease-in-out;
+}
+
+.zero {
+    grid-area: 5 / 1 / 6 / 3;
+}
+
+.equal {
+    grid-area: 4 / 4 / 6 / 5;
+    background-color: rgb(0,0,30) !important;
+}
+
+/* Somehow right directed icon doesn't work so I use the left one and rotate it */
+
+.icon {
+    rotate: 180deg;
+}
+
+.crc {
+    background-color: var(--btncrc);
+}
+
+
+
