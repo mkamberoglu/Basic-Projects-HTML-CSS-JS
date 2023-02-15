@@ -2,4 +2,4 @@
 
 You can review the project on [Codepen!](https://codepen.io/MelihK/pen/NWLPKwv)
 
-![Calculator](/calculatorlast.jpg)
+![Calculator](/img/calculatorlast.jpg)
