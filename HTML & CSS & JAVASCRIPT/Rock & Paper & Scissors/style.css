@@ -205,7 +205,7 @@ section {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 100px;
+    bottom: 50px;
     right: 100px;
     width: 200px;
     height: 50px;
@@ -226,15 +226,15 @@ section {
 
 @keyframes btn {
     0% {
-        bottom: 100px;
+        bottom: 50px;
     }
 
     50% {
-        bottom: 105px;
+        bottom: 55px;
     }
 
 
     100% {
-        bottom: 100px;
+        bottom: 50px;
     }
 }
