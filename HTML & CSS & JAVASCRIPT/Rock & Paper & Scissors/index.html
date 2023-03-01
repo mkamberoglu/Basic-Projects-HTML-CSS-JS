@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & Paper & Scissors Game</title>
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="personal">
+            <i class="fa-solid fa-scale-balanced"></i>
+            <span class="label">advø</span>
+        </div>
+        <h1 class="title">ROCK & PAPER & SCISSORS</h1>
+    </div>
+    <div class="result-box visible" id="box">
+        <h2 class="result-title" id="result-title"></h2>
+    </div>
+    <div class="generate-btn" id="generate-btn">CLICK FOR GENERATE</div>
+    <div class="reset-btn" id="reset">RESTART</div>
+    <div class="main">
+        <div class="generator-header">
+            <h1>GENERATOR</h1>
+            <h3 class="brd">PLAYER SECTION</h3>
+            <h3>COMPUTER SECTION</h3>
+        </div>
+        <div class="computer-choice">
+            <section  id="computer">
+            </section>
+        </div>
+        <div class="rock choice" id="rock">
+            <i class="fa-solid fa-gem"></i>
+            <span class="rock-label">ROCK</span>
+        </div>
+        <div class="paper choice" id="paper">
+            <i class="fa-solid fa-sheet-plastic"></i>
+            <span class="paper-label">PAPER</span>
+        </div>
+        <div class="scissors choice" id="scissors">
+            <i class="fa-solid fa-scissors"></i>
+            <span class="scissors-label">SCISSORS</span>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
