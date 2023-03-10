@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+section div {
+    font-size: 50px;
+    color: white;
+    line-height: 1.5;
+    margin: auto;
+}
+
+.home-sec {
+    background-image: url(https://images.wallpapersden.com/image/download/the-final-night-hd-illustrator_bWpnZWmUmZqaraWkpJRobWllrWdma2U.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.about-sec {
+    background-image: url(https://cutewallpaper.org/21/2560x1440-wallpapers/240727905.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.contact-sec {
+    background-image: url(https://images5.alphacoders.com/130/1304409.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
